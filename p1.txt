@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as pit
+from matplotlib import style
+style.use("five thirty eight")
+df=pd.DataFrame({"day":[1,2,3],"visitors";[200,100,230,300],"bounce_rate":[20,45,60,10]})
+df.set_index("day",inplace=true)
+df.plot()
+plt.show()
